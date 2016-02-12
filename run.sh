@@ -76,6 +76,8 @@ answer_7=$(gzcat $hg19genes \
         | cut -f1 -d ' ' )
 
 echo "answer_7: $answer_7"
+### Why does this insist on printing a bunch of crap to the terminal? It
+### works fine as a standalone. WTF, q7. I'm clearly missing something.
 
 # Q8: How many unique chromosomes are in genes.hg19.bed.gz?
 answer_8=$(gzcat $hg19genes \
